@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mifs and Real</title>
+</head>
+<body>
+
+<style>
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+        .content__user {
+            display: flex;
+            /*justify-content: space-between;*/
+        }
+            .content__login {
+                width: 40%;
+                height: auto;
+                text-align: center;
+            }
+
+            .content__avatar {
+                width: 10%;
+                height: auto;
+                margin: 1vw 6vw;
+            }
+            .content__link {
+                width: 40%;
+                height: auto;
+            }
+</style>
+
+<section class="content">
+    <input class="content__username" type="text" id="search">
+    <div class="content__list" id="list"></div>
+</section>
+
+<script src="https://unpkg.com/rxjs/bundles/rxjs.umd.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
